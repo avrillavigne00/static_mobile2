@@ -1,0 +1,22 @@
+<div class="list-status segmented-control">
+    <a class="control-item active">发货确认</a>
+    <a class="control-item">收货确认</a>
+    <a class="control-item">全部</a>
+</div>
+<ul class="table-view no-navigate-right bg-trans" id="datalist">
+    <li class="table-view-cell" v-for="item in items">
+        <a class="" id ="{{item.billid}}"  href="#delivercard/delivercardview?billid={{item.billid}}" data-ignore="push">
+            <div class="media-body">
+                <p class="sync-title">{{item.billcode}}<span class="badge badge-info">待发货</span></p>
+                <p>{{item.product}}&nbsp&nbsp&nbsp&nbsp{{item.num}}&nbsp{{item.unitname}}</p>
+                <p>客户：{{item.cust}}</p>
+                <p>地址：{{item.address}}</p>
+                <p class="pull-left">到货日期：{{item.plandate}}</p>
+                <button class="btn btn-default pull-right">发货</button>
+            </div>
+        </a>
+    </li>
+</ul>
+<div class="search4more j-query4more">
+    加载更多
+</div>

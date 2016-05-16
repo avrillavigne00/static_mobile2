@@ -1,0 +1,69 @@
+<form class="input-group m-input-group m-t-md">
+    <div class="input-row">
+        <label>订单编号</label>
+        <span>{{ordercode}}</span>
+    </div>
+    <div class="input-row">
+        <label>采购企业</label>
+        <span>{{enterprise}}</span>
+    </div>
+    <div class="input-row">
+        <label>商品</label>
+        <span>{{product}}</span>
+    </div>
+    <div class="input-row">
+        <label>应发数量</label>
+        <span>{{shouldnum}}&nbsp&nbsp{{unitname}}</span>
+    </div>
+    <div class="input-row">
+        <label>收货地址</label>
+        <span>{{address}}</span>
+    </div>
+    <div class="input-row">
+        <label>到货日期</label>
+        <span>{{revdate}}</span>
+    </div>
+</form>
+<form id="submitform">
+    <div class="m-order-detail">
+        <div class="order-info-edit">
+                <div class="input-group m-input-group">
+                    <div class="input-row">
+                        <label>发货日期</label>
+                        <input type="date" name="cdelivedate" v-model="cdelivedate">
+                    </div>
+                    <div class="input-row">
+                        <label>预计到货日期</label>
+                        <input type="date" name="cplanrevdate" v-model="cplanrevdate">
+                    </div>
+                    <div class="input-row">
+                        <label>发货数量</label>
+                        <input type="text" name="num" v-model="num">
+                        <span class="pull-right units">{{unitname}}</span>
+                    </div>
+                </div>
+                <div class="input-group m-input-group">
+                    <div class="input-row">
+                        <label>物流信息</label>
+                        <input type="text" name="deliverinfo" v-model="deliverinfo">
+                    </div>
+                    <div class="input-row">
+                        <label>联系人</label>
+                        <input type="text" name="linkman" v-model="linkman">
+                    </div>
+                    <div class="input-row">
+                        <label>联系电话</label>
+                        <input type="text" name="linkphone" v-model="linkphone">
+                    </div>
+                    <div class="input-row">
+                        <label>备注</label>
+                        <input type="text" name="memo" v-model="memo">
+                    </div>
+                </div>
+        </div>
+    </div>
+</form>
+<div class="order-commit-ctn text-right">
+    <span class="btn-bottom j-submit">提交</span>
+</div>
+<br>

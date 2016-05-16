@@ -1,0 +1,7 @@
+[
+  {"billid":"10","billcode":"CD2015110703","title":"办公桌询价","product":"办公桌","unitname":"张","num":"5","mny":"500.00","plandate":"2016-04-15","cust":"用友网络科技","address":"北京海淀北清路101号","contact":"刘美红","tel":"13402325411"},
+  {"billid":"11","billcode":"CD2015110704","title":"办公椅询价","product":"办公椅","unitname":"个","num":"10","mny":"600.00","plandate":"2016-04-18","cust":"用友北京分公司","address":"北京海淀北清路105号","contact":"张帅","tel":"13402325412"},
+  {"billid":"12","billcode":"CD2015110705","title":"电话机询价","product":"电话机","unitname":"个","num":"5","mny":"1000.00","plandate":"2016-04-16","cust":"东软北京分公司","address":"北京海淀北三环109号","contact":"刘双","tel":"13402325413"},
+  {"billid":"13","billcode":"CD2015110706","title":"插排询价","product":"插排","unitname":"个","num":"20","mny":"700.00","plandate":"2016-04-15","cust":"东软北京分公司","address":"北京海淀北三环109号","contact":"冯泉","tel":"13402325415"},
+  {"billid":"15","billcode":"CD2015110707","title":"净化器询价","product":"净化器","unitname":"个","num":"10","mny":"5000.00","plandate":"2016-04-17","cust":"有色研究院","address":"北京海淀北三环175号","contact":"赵西","tel":"13402325419"}
+]

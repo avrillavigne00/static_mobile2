@@ -1,0 +1,31 @@
+[
+  {"billid":"10","billno":"CD5110533","cust":"用友网络",
+    "state":"2","contact":"刘美","tel":"13402325411","money":"700.00",
+    "products":[{"name":"衣服","ref":"//gw2.alicdn.com/bao/uploaded/i4/TB1rVlKLpXXXXbQXFXXXXXXXXXX_!!0-item_pic.jpg_210x210.jpg","num":"2"},
+      {"name":"衣服","ref":"//gw2.alicdn.com/bao/uploaded/i4/TB1rVlKLpXXXXbQXFXXXXXXXXXX_!!0-item_pic.jpg_210x210.jpg","num":"3"},
+      {"name":"衣服","ref":"//gw2.alicdn.com/bao/uploaded/i4/TB1rVlKLpXXXXbQXFXXXXXXXXXX_!!0-item_pic.jpg_210x210.jpg","num":"4"},
+      {"name":"衣服","ref":"//gw2.alicdn.com/bao/uploaded/i4/TB1rVlKLpXXXXbQXFXXXXXXXXXX_!!0-item_pic.jpg_210x210.jpg","num":"5"},
+      {"name":"衣服","ref":"//gw2.alicdn.com/bao/uploaded/i4/TB1rVlKLpXXXXbQXFXXXXXXXXXX_!!0-item_pic.jpg_210x210.jpg","num":"6"},
+      {"name":"衣服","ref":"//gw2.alicdn.com/bao/uploaded/i4/TB1rVlKLpXXXXbQXFXXXXXXXXXX_!!0-item_pic.jpg_210x210.jpg","num":"5"},
+      {"name":"衣服","ref":"//gw2.alicdn.com/bao/uploaded/i4/TB1rVlKLpXXXXbQXFXXXXXXXXXX_!!0-item_pic.jpg_210x210.jpg","num":"6"}
+    ]
+  },
+  {"billid":"10","billno":"CD5110535","cust":"用友四川分公司",
+    "state":"1","contact":"刘美","tel":"13402325411","money":"600.00",
+    "products":[{"name":"衣服","ref":"//gw2.alicdn.com/bao/uploaded/i4/TB1rVlKLpXXXXbQXFXXXXXXXXXX_!!0-item_pic.jpg_210x210.jpg","num":"2"},
+      {"name":"衣服","ref":"//gw2.alicdn.com/bao/uploaded/i4/TB1rVlKLpXXXXbQXFXXXXXXXXXX_!!0-item_pic.jpg_210x210.jpg","num":"3"},
+      {"name":"衣服","ref":"//gw2.alicdn.com/bao/uploaded/i4/TB1rVlKLpXXXXbQXFXXXXXXXXXX_!!0-item_pic.jpg_210x210.jpg","num":"4"},
+      {"name":"衣服","ref":"//gw2.alicdn.com/bao/uploaded/i4/TB1rVlKLpXXXXbQXFXXXXXXXXXX_!!0-item_pic.jpg_210x210.jpg","num":"5"},
+      {"name":"衣服","ref":"//gw2.alicdn.com/bao/uploaded/i4/TB1rVlKLpXXXXbQXFXXXXXXXXXX_!!0-item_pic.jpg_210x210.jpg","num":"6"}
+    ]
+  },
+  {"billid":"10","billno":"CD5110534","cust":"用友优普",
+    "state":"5","contact":"刘美","tel":"13402325411","money":"900.00",
+    "products":[{"name":"衣服","ref":"//gw2.alicdn.com/bao/uploaded/i4/TB1rVlKLpXXXXbQXFXXXXXXXXXX_!!0-item_pic.jpg_210x210.jpg","num":"2"},
+      {"name":"衣服","ref":"//gw2.alicdn.com/bao/uploaded/i4/TB1rVlKLpXXXXbQXFXXXXXXXXXX_!!0-item_pic.jpg_210x210.jpg","num":"3"},
+      {"name":"衣服","ref":"//gw2.alicdn.com/bao/uploaded/i4/TB1rVlKLpXXXXbQXFXXXXXXXXXX_!!0-item_pic.jpg_210x210.jpg","num":"4"},
+      {"name":"衣服","ref":"//gw2.alicdn.com/bao/uploaded/i4/TB1rVlKLpXXXXbQXFXXXXXXXXXX_!!0-item_pic.jpg_210x210.jpg","num":"5"},
+      {"name":"衣服","ref":"//gw2.alicdn.com/bao/uploaded/i4/TB1rVlKLpXXXXbQXFXXXXXXXXXX_!!0-item_pic.jpg_210x210.jpg","num":"6"}
+    ]
+  }
+]

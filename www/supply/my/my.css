@@ -1,0 +1,10 @@
+.my-title{
+    text-align: center;
+    padding: 10px 0;
+}
+.my-title .icon{
+    font-size: 100px;
+}
+.my-title div{
+    font-size: 16px;
+}

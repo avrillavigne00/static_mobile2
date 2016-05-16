@@ -1,0 +1,20 @@
+<div class="list-status segmented-control">
+    <a class="control-item active">待确认</a>
+    <a class="control-item">已确认</a>
+    <a class="control-item">全部</a>
+</div>
+<ul class="table-view no-navigate-right bg-trans" id="datalist">
+    <li class="table-view-cell" v-for="item in items">
+        <a class="" id ="{{item.billid}}"  href="#ordercard/ordercardview?billid={{item.billid}}" data-ignore="push">
+            <div class="media-body">
+                <p class="sync-title">{{item.title}}<span class="badge badge-info">未确认</span></p>
+                <p>商品：{{item.product}}></p>
+                <p class="pull-left">金额：${{item.money}}</p>
+                <button class="btn btn-default pull-right">确认</button>
+            </div>
+        </a>
+    </li>
+</ul>
+<div class="search4more j-query4more">
+    加载更多
+</div>

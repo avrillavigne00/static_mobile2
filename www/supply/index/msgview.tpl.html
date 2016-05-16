@@ -1,0 +1,21 @@
+<% _.each(model, function(info,i){ %>
+<li class="table-view-cell media m-b-sm bg-white">
+    <div class="index-msg">
+        <%var msgtypemap = {
+            "0":{msgicon:"icon-sound",title:"系统消息"},
+            "1":{msgicon:"icon-person",title:"报价通知"},
+            "2":{msgicon:"icon-info",title:"发货通知"},
+            "3":{msgicon:"icon-compose",title:"开票通知"},
+            "4":{msgicon:"icon-check",title:"付款通知"}
+        };
+        var msgobj = msgtypemap[info.get("infotype")];
+        msgobj = msgobj||{msgicon:"icon-info",title:"消息提醒"};
+        %>
+        <span class="icon <%=msgobj.msgicon%> index-msg-cell"></span>
+        <div class="media-body index-msg-cell">
+            <strong><%=msgobj.title%></strong><br/>
+            <%=info.get("content")%>
+        </div>
+    </div>
+</li>
+<%})%>

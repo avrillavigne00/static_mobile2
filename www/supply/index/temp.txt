@@ -1,0 +1,83 @@
+<% if(if.get('state')==='0'|| info.get('state')==='1'){%>label-warning待确认<%}%>
+                    <% else if(info.get('state')==='2'){%>label-danger待发货<%}%>
+                    <% else if(info.get('state')==='3'){%>label-info已发货<%}%>
+                    <% else if(info.get('state')==='4'){%>label-info待收款<%}%>
+                    <% else if(info.get('state')==='5'){%>label-primary已付款<%}%>
+                    <% else {%>label-success已完成 <%}%>
+
+
+                                        <% if(info.get("state")==="0"){%>买家未确认 <%}%>
+                                        <% else if(info.get("state")==="1"){%>买家已确认<%}%>
+                                        <% else if(info.get("state")==="2"){%>买家待收货<%}%>
+                                        <% else if(info.get("state")==="3"){%>买家待收货<%}%>
+                                        <% else if(info.get("state")==="4"){%>买家已签收<%}%>
+                                        <% else if(info.get("state")==="5"){%>买家已付款 <%}%>
+                                        <% else {%>已完成 <%}%>
+
+
+            <div>
+                <span class="pull-left label label-info">
+                    <% switch(info.get("state")){
+                    case "0":"待确认";
+                    case "1":"待确认";
+                    case "2":"待发货";
+                    case "3":"已发货";
+                    case "4":"待收款";
+                    case "5":"已付款";
+                    default :"已完成"
+                    }%>
+                </span>
+                <span><u><%info.get('billno')%></u><strong><%info.get('cust')%></strong></span>
+                <span class="pull-right label label-danger">
+                    <% switch(info.get("state")){
+                    case "0":"买家未确认";
+                    case "1":"买家已确认";
+                    case "2":"买家待收货";
+                    case "3":"买家待收货";
+                    case "4":"买家已签收";
+                    case "5":"买家已付款";
+                    default :"已结束"
+                    }%>
+                </span>
+            </div>
+
+    <li class="table-view-cell m-b-sm bg-white">
+        <div>
+            <span class="label label-warning pull-left">待确认</span>
+            <span><u>CD5110535</u><strong>用友优普</strong></span>
+            <span class="label label-warning pull-right">买家已下单</span>
+        </div>
+        <ul class="o-product-list" >
+            <li><div><img src="//gw2.alicdn.com/bao/uploaded/i4/TB1rVlKLpXXXXbQXFXXXXXXXXXX_!!0-item_pic.jpg_210x210.jpg" alt="">
+                <span class="text-center" style="display: block">女装1</span></div></li>
+            <li><div><img src="//gw2.alicdn.com/bao/uploaded/i4/TB1rVlKLpXXXXbQXFXXXXXXXXXX_!!0-item_pic.jpg_210x210.jpg" alt="">
+                <span class="text-center" style="display: block">女装1</span></div></li>
+            <li><div><img src="//gw2.alicdn.com/bao/uploaded/i4/TB1rVlKLpXXXXbQXFXXXXXXXXXX_!!0-item_pic.jpg_210x210.jpg" alt="">
+                <span class="text-center" style="display: block">女装1</span></div></li>
+            <li><div><img src="//gw2.alicdn.com/bao/uploaded/i4/TB1rVlKLpXXXXbQXFXXXXXXXXXX_!!0-item_pic.jpg_210x210.jpg" alt="">
+                <span class="text-center" style="display: block">女装1</span></div></li>
+        </ul>
+    </li>
+</ul>
+
+    <ul class="table-view">
+        <li class="table-view-cell media m-b-sm bg-white">
+            <div class="index-msg">
+                <span class="icon icon-sound index-msg-cell"></span>
+                <div class="media-body index-msg-cell">
+                    <strong>系统消息</strong><br/>
+                    系统平台将于2016-03-03 23:59:59进行平台维护,到时将不能进行系统登录操作
+                </div>
+            </div>
+        </li>
+        <li class="table-view-cell media m-b-sm bg-white">
+            <div class="index-msg">
+                <span class="icon icon-person index-msg-cell"></span>
+                <div class="media-body index-msg-cell">
+                    <strong>报价通知</strong><br/>
+                    用友软件询价单********邀请您及时报价。
+                </div>
+            </div>
+        </li>
+    </ul>
+

@@ -1,0 +1,25 @@
+<%var infotypemap = {
+"0":{slabel:"label-warning",sinfo:"待确认",binfo:"买家未确认"},
+"1":{slabel:"label-warning",sinfo:"待确认",binfo:"买家已确认"},
+"2":{slabel:"label-danger",sinfo:"待发货",binfo:"买家待收货"},
+"3":{slabel:"label-info",sinfo:"已发货",binfo:"买家待收货"},
+"4":{slabel:"label-info",sinfo:"待收款",binfo:"买家已签收"},
+"5":{slabel:"label-success",sinfo:"已付款",binfo:"买家已付款"},
+"6":{slabel:"label-primary",sinfo:"已完成",binfo:"已完成"}
+};%>
+<% _.each(model, function(info,i){ %>
+    <li class="table-view-cell m-b-sm bg-white">
+            <div>
+                <%var infoobj = infotypemap[info.get("state")]||{slabel:"label-primary",sinfo:"已完成",binfo:"已完成"};%>
+                <span class="pull-left label <%=infoobj.slabel%>"><%=infoobj.sinfo%></span>
+                <span><u><%=info.get('billno')%></u><strong><%=info.get('cust')%></strong></span>
+                <span class="pull-right label <%=infoobj.slabel%>"><%=infoobj.binfo%></span>
+            </div>
+            <ul class="o-product-list" >
+                <% _.each(info.get('products'), function(prd,i){ %>
+                    <li><div><img src="<%=prd.ref%>" alt="">
+                    <span class="text-center" style="display: block"><%=prd.name%></span></div></li>
+                <%})%>
+            </ul>
+    </li>
+<%})%>
